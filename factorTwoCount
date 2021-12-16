@@ -1,0 +1,8 @@
+  public static int factorTwoCount(int x){
+    int countTwo = 0; 
+    while(x % 2 == 0){
+        x = x/2;
+        countTwo++;
+    }
+    return countTwo;
+  }
